@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="57px" viewBox="0 0 93 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(2.000000, 3.000000)" stroke-width="3">
+            <polygon id="Stroke-1" stroke="#007AFF" points="0 25.5273979 44.0473011 51 88 25.5273979 44 0"></polygon>
+            <line x1="49.6918185" y1="13.8040731" x2="58.654136" y2="8.50132838" id="Stroke-3" stroke="#007AFF"></line>
+            <line x1="15.1087247" y1="34.2653448" x2="29.9214439" y2="25.5004981" id="Stroke-4" stroke="#007AFF"></line>
+            <line x1="29.7317415" y1="42.6543417" x2="73.2761571" y2="16.8903253" id="Stroke-5" stroke="#007AFF"></line>
+            <line x1="58.6294896" y1="25.5393534" x2="73.2754102" y2="34.0601094" id="Stroke-6" stroke="#007AFF"></line>
+            <line x1="29.3463619" y1="8.5020756" x2="38.2514202" y2="13.682775" id="Stroke-7" stroke="#007AFF"></line>
+            <line x1="14.9162838" y1="17.0955607" x2="57.9976463" y2="42.1596845" id="Stroke-8" stroke="#007AFF"></line>
+            <polygon id="Stroke-10" stroke="#0057B5" points="44.079914 6.95633424 59.0893063 25.2730953 44.0475501 34.0180162"></polygon>
+            <polygon id="Stroke-9" stroke="#007AFF" points="28.9096979 25.272099 44.0809098 6.95533796 44.0485459 34.0170199"></polygon>
+        </g>
+    </g>
+</svg>
