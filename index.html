@@ -13,8 +13,8 @@ title: Home
     </h1>
 
     <span class="post-date">
-    {% assign m = page.date | date: "%-m" %}
-    {{ page.date | date: "%-d" }}
+    {% assign m = post.date | date: "%-m" %}
+    {{ post.date | date: "%-d" }}
     {% case m %}
       {% when '1' %}Ene
       {% when '2' %}Feb
@@ -29,7 +29,7 @@ title: Home
       {% when '11' %}Nov
       {% when '12' %}Dic
     {% endcase %}
-    {{ page.date | date: "%Y" }}
+    {{ post.date | date: "%Y" }}
 	</span>
 
     {{ post.content }}
