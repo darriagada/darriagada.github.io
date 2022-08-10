@@ -4,13 +4,32 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <!--<span class="post-date">{{ page.date | date_to_string }}</span>-->
+  <span class="post-date">
+  {% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d" }}
+  {% case m %}
+    {% when '1' %}Ene
+    {% when '2' %}Feb
+    {% when '3' %}Mar
+    {% when '4' %}Abr
+    {% when '5' %}May
+    {% when '6' %}Jun
+    {% when '7' %}Jul
+    {% when '8' %}Ago
+    {% when '9' %}Sep
+    {% when '10' %}Oct
+    {% when '11' %}Nov
+    {% when '12' %}Dic
+  {% endcase %}
+  {{ page.date | date: "%Y" }}
+  </span>
   {{ content }}
 </div>
 
 {% if site.related_posts.size >= 1 %}
 <div class="related">
-  <h2>Related posts</h2>
+  <h2>M&aacute; art&iacute;culos</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
