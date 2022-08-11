@@ -41,15 +41,15 @@ title: Home
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Posts antiguos</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">Posts antiguos</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Posts nuevos</a>
     {% else %}
       <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Posts nuevos</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">Posts nuevos</span>
   {% endif %}
 </div>
