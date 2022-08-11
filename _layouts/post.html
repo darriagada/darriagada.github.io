@@ -22,6 +22,7 @@ layout: default
     {% when '12' %}Dic
   {% endcase %}
   {{ page.date | date: "%Y" }}
+   &middot; {{ page.tags }}
   </span>
   {{ content }}
 </div>
