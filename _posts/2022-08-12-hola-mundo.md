@@ -11,4 +11,4 @@ Aquí escribiré todo lo que pueda; desde anécdotas, tutoriales, opiniones, etc
 
 En última instancia me servirá para mejorar mi redacción porque deja bastante que desear.
 
-Honestamente, no espero que nadie lea esto, pero si encuentras algo interesante en ello, me alegro mucho.
+Honestamente, no espero que nadie lea esto pero si encuentras algo interesante en ello, me alegro mucho.
