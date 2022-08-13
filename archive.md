@@ -19,7 +19,7 @@ title: Archivo
 <ul class="post-list">
 	{% for post in tag[1] %}
 <li><span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
-        <h3>
+        <h3 style="margin:0;">
           <a href="{{ post.url }}" class="post-link"> {{ post.title }}</a>
         </h3></li>
 		{% endfor %}
