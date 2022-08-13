@@ -143,18 +143,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Archive */
 .post-list {
-	list-style-image: none;
-	margin-left: 0;
-	list-style: none;
+ margin-left:0;
+ list-style:none
 }
-
+.post-list>li {
+ margin-bottom:30px
+}
 .post-meta {
-	color: rgb(155, 145, 131);
-	font-size: 14px;
+ font-size:14px;
+ color:#828282
 }
-
 .post-link {
-	display: block;
+ display:block;
+ font-size:24px
+}
+.post-header {
+ margin-bottom:30px
+}
+.post-title {
+ font-size:42px;
+ letter-spacing:-1px;
+ line-height:1
 }
 
 
