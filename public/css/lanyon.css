@@ -141,6 +141,22 @@ h1, h2, h3, h4, h5, h6 {
 	display:block;
 }
 
+/* Archive */
+.post-list {
+	list-style-image: none;
+	margin-left: 0;
+	list-style: none;
+}
+
+.post-meta {
+	color: rgb(155, 145, 131);
+	font-size: 14px;
+}
+
+.post-link {
+	display: block;
+}
+
 
 /*
  * Sidebar
