@@ -25,3 +25,20 @@ title: Archivo
 		{% endfor %}
 	</ul>
 {% endfor %}
+
+
+{%- assign allposts = site.posts | concat: site.personal | sort_natural: "date" | reverse %}
+
+{%- assign postsByYearMonth = allposts | group_by_exp:"allposts", "allposts.date | date: '%Y %B'"  %}
+
+{%- for yearMonth in postsByYearMonth %}
+<h3>{{ yearMonth.name }}</h3>
+<ul class="post-list" style="padding:0;">
+  {%- for post in yearMonth.items %}
+  <li>
+	  <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
+	  <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
