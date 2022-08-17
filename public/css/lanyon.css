@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
  margin-bottom:30px
 }
 .post-meta {
- float:right;
+	display:block;
  font-size:16px;
  color:#828282
 }
@@ -168,14 +168,14 @@ h1, h2, h3, h4, h5, h6 {
  line-height:1
 }
 
-@media (min-width: 30em) {
+@media (min-width: 34rem) {
 	.post-list>li {
 	 margin-bottom:10px
 	}
 	
 	.post-meta {
-		float:none;
-		display:block;
+	    float: right;
+	    margin-left: 1rem;
 	}	
 }
 
