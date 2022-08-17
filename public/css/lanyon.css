@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Twemoji */
-img.emoji {
+.emoji {
    height: 1em;
    width: 1em;
    margin: 0 .05em 0 .1em;
