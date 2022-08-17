@@ -188,6 +188,8 @@ h1, h2, h3, h4, h5, h6 {
    width: 1em;
    margin: 0 .05em 0 .1em;
    vertical-align: -0.1em;
+   display: inline-block;
+   border-radius: 0;
 }
 
 /*
