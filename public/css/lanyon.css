@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
  color:#828282
 }
 .post-link {
+ font-weight:100 !important;
  display:block;
  font-size:24px
 }
