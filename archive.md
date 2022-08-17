@@ -31,7 +31,7 @@ title: Archivo
       {% endcase %}
       {{ post.date | date: "%Y" }}
 	  </span>
-	  <h3 style="margin:0;">
+	  <h3 style="margin:0;font-weight:100 !important;">
 	   <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
 	  </h3>
   </li>
