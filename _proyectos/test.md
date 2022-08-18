@@ -1,8 +1,8 @@
 ---
-layout: animal # You can ommit this if you've set it as a default
+layout: project
 title: Zebra
 class:     Mammalia
 family: Equidae
 headline: Zebras are the best!
-picture: /images/animails/zebra.jpg
+picture: /public/images/skull.svg
 ---
