@@ -1,14 +1,15 @@
 ---
 layout: page
-title: "A list of animals"
+title: "Proyectos"
 permalink: "/proyectos/"
 ---
 
 {% for proyecto in site.proyectos %}
   <h2>
     <a href="{{ proyecto.url }}">
-      {{ proyecto.name }} - {{ proyecto.position }}
+      {{ proyecto.title }}
     </a>
   </h2>
-  <p>{{ proyecto.content | markdownify }}</p>
+  <p>{{ proyecto.stub | markdownify }}</p>
+  <!--<p>{{ proyecto.content | markdownify }}</p>-->
 {% endfor %}
