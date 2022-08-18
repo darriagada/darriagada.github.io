@@ -3,7 +3,9 @@ layout: default
 ---
 <div class="post">
 	
-  <img src="{{ page.picture }}" alt="{{ page.title | downcase }}">	
+  <a href="{{ page.url }}" title="Ir a {{ page.url }}">
+      <img src="{{ page.picture }}" alt="{{ page.title | downcase }}">
+   </a>	
 
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
