@@ -53,12 +53,12 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 
 html {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Alegreya", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: "League Spartan", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -391,7 +391,7 @@ a.sidebar-nav-item:focus {
   display: block;
   margin-top: 0.5rem; /* -.5rem */
   margin-bottom: 1rem;
-  color: #333;
+  color: #ddd;
 }
 
 /* Related posts */
