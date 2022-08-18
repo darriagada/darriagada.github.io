@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#F8F6F5" x="2" y="2" width="51" height="51" rx="2"></rect>
+        <g id="Group-31-Copy-2" transform="translate(4.205976, 4.205976)">
+            <path d="M0.000120597573,22.1124896 C12.8650677,22.1124896 23.2943459,32.5417678 23.2943459,45.4067149" id="Stroke-1" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.000120597573,27.3877089 C9.95183234,27.3877089 18.019006,35.4548826 18.019006,45.4065943" id="Stroke-3" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.000120597573,32.9873356 C6.85890658,32.9873356 12.4192587,38.5476877 12.4192587,45.4064737" id="Stroke-5" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.000120597573,38.3988703 C3.87049872,38.3988703 7.00764359,41.5364172 7.00764359,45.4063933" id="Stroke-7" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M46.5882093,22.1124896 C33.7232622,22.1124896 23.2939841,32.5417678 23.2939841,45.4067149" id="Stroke-9" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M46.5882093,27.3877089 C36.6364976,27.3877089 28.5693239,35.4548826 28.5693239,45.4065943" id="Stroke-11" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M46.5882093,32.9873356 C39.7294233,32.9873356 34.1690712,38.5476877 34.1690712,45.4064737" id="Stroke-13" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M46.5882093,38.3988703 C42.7178312,38.3988703 39.5806863,41.5364172 39.5806863,45.4063933" id="Stroke-15" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <line x1="0.000120597573" y1="16.8842632" x2="11.8391844" y2="16.8842632" id="Stroke-17" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="35.2466508" y1="16.8842632" x2="46.5880485" y2="16.8842632" id="Stroke-19" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="0" y1="11.1383115" x2="17.7386971" y2="11.1383115" id="Stroke-21" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="29.500699" y1="11.1383115" x2="46.5881691" y2="11.1383115" id="Stroke-23" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="0" y1="5.56915573" x2="46.5880485" y2="5.56915573" id="Stroke-25" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <polygon id="Stroke-27" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" points="0 46.5880485 46.5880485 46.5880485 46.5880485 0 0 0"></polygon>
+            <polyline id="Stroke-29" stroke="#0E100E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" points="6.53281074 22.6301748 23.5374706 5.625515 40.3785197 22.4665641"></polyline>
+            <path d="M27.8223827,23.5129089 C27.8223827,24.2445341 27.2290427,24.8382762 26.4970154,24.8382762 C25.7649881,24.8382762 25.1716481,24.2445341 25.1716481,23.5129089 L25.1716481,22.9641899 C25.1716481,22.2321626 25.7649881,21.6388226 26.4970154,21.6388226 C27.2290427,21.6388226 27.8223827,22.2321626 27.8223827,22.9641899 L27.8223827,23.5129089 Z M21.6232655,23.5129089 C21.6232655,24.2445341 21.0303274,24.8382762 20.2978982,24.8382762 C19.5658709,24.8382762 18.9725308,24.2445341 18.9725308,23.5129089 L18.9725308,22.9641899 C18.9725308,22.2321626 19.5658709,21.6388226 20.2978982,21.6388226 C21.0303274,21.6388226 21.6232655,22.2321626 21.6232655,22.9641899 L21.6232655,23.5129089 Z M23.584182,11.6963566 L11.1525822,24.1275545 C16.3700352,26.8068306 20.2605129,32.7961081 23.5789561,40.2124568 C25.5865037,33.7552608 29.2373943,28.1153143 35.8204138,23.9325884 L23.584182,11.6963566 Z" id="Fill-30" fill="#0E100E"></path>
+        </g>
+    </g>
+</svg>
