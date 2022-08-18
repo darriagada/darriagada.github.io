@@ -3,16 +3,16 @@ layout: page
 title: Proyectos
 ---
 
-{% for project in site.projects %}
-  <h2>{{ project.name }} - {{ project.position }}</h2>
-  <p>{{ project.content | markdownify }}</p>
+{% for personal_project in site.personal_projects %}
+  <h2>{{ personal_project.name }} - {{ personal_project.position }}</h2>
+  <p>{{ personal_project.content | markdownify }}</p>
 {% endfor %}
 
-{% for project in site.projects %}
+{% for personal_project in site.personal_projects %}
   <h2>
-    <a href="{{ project.url }}">
-      {{ project.name }} - {{ project.position }}
+    <a href="{{ personal_project.url }}">
+      {{ personal_project.name }} - {{ personal_project.position }}
     </a>
   </h2>
-  <p>{{ project.content | markdownify }}</p>
+  <p>{{ personal_project.content | markdownify }}</p>
 {% endfor %}
