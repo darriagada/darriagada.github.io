@@ -29,3 +29,7 @@ defaults:
       type: post
     values:
       tags: Misc
+	  
+collections:
+  projects:
+    output: true	  
