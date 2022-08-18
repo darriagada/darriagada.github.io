@@ -22,10 +22,11 @@ plugins:
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
 
+# Collections
 collections:
-  personal_projects:
+  proyectos:
     output: true
-	permalink: /:collection/:name
+    permalink: /proyecto/:name
 
 defaults:
   - scope:
