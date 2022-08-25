@@ -17,6 +17,6 @@ Fuera de eso, me gusta la fotografía y la ilustración.
 Todas las opiniones expresadas en este blog son personales y no representan el pensar de mis empleadores o amigos.
 
 ### Créditos
-Este blog está creado con [Jekyll](https://jekyllrb.com/) y alojado en [Github Pages](https://pages.github.com/). El diseño está basado en la plantilla [Lanyon](https://lanyon.getpoole.com/) creada por [@mdo](https://twitter.com/mdo)
+Este blog está creado con [Jekyll](https://jekyllrb.com/) y alojado en [Github Pages](https://pages.github.com/). El diseño está basado en la plantilla [Lanyon](https://lanyon.getpoole.com/) creada por [@mdo](https://twitter.com/mdo).
 
 ¡Gracias por visitar mi blog!
