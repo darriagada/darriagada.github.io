@@ -212,7 +212,9 @@ a {
 }
 
 /* Footer */
-footer {
+.footer {
+	font-size:13px;
+	text-align:center;
 	margin:2rem 0 3rem 0;
 }
 
