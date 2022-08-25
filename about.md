@@ -1,29 +1,22 @@
 ---
 layout: page
-title: About
+title: Autor
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hola, soy Diego Arriagada. Diseñador gráfico que vive en Santiago, Chile. Me gusta la tecnología, la música y [los experimentos](/proyectos/). Otras veces escribo retrospectivas de mis proyectos o intereses.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Fuera de eso, me gusta la fotografía y la ilustración.
 
-There are currently two themes built on Poole:
+### ¿Dónde me puedes encontrar?
+* [Behance](https://www.behance.net/diegoarriagada/)
+* [Github](https://github.com/darriagada/)
+* [Email](mailto:darriagada6@gmail.com?subject=Hola!)
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### Disclaimer 
+Todas las opiniones expresadas en este blog son personales y no representan el pensar de mis empleadores o amigos.
 
-## Setup
+### Créditos
+Este blog está creado con [Jekyll](https://jekyllrb.com/) y alojado en [Github Pages](https://pages.github.com/). El diseño está basado en la plantilla [Lanyon](https://lanyon.getpoole.com/) creada por [@mdo](https://twitter.com/mdo)
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+¡Gracias por visitar mi blog!
