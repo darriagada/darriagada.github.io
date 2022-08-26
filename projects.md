@@ -10,12 +10,17 @@ permalink: "/proyectos/"
 
 .column {
   float: left;
-  width: 240px;
-  padding: 10px;
+  width: 50%;
+  padding: 1rem;
   margin-bottom:1rem;
 }
 
-/* Clear floats after the columns */
+.projects-list {
+	margin:0 !important;
+	padding:0 !important;
+	list-style-type:none;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -41,7 +46,7 @@ permalink: "/proyectos/"
 {% endfor %}
 </ul> 
 
-<ul class="row">
+<ul class="row projects-list">
 {% for proyecto in site.proyectos %}
     <li class="column">
 	  <a href="{{ proyecto.url }}"><img src="https://picsum.photos/400" alt="" /></a>
