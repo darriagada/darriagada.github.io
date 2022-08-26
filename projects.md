@@ -4,7 +4,7 @@ title: "Proyectos"
 permalink: "/proyectos/"
 ---
 <ul class="post-list" style="padding:0;">
-{% for proyecto in site.proyectos %}
+{% for proyecto in site.proyectos limit: 1 %}
     <li>
   	  <span class="post-meta"><a href="{{ proyecto.url }}" class="button">Visitar</a></span>
 	  <h3 style="margin:0;font-weight:100 !important;">
