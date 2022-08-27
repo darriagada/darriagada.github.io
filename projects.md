@@ -35,6 +35,10 @@ permalink: "/proyectos/"
 	opacity:0.5;
 }
 
+.page-title {
+	display:none;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
