@@ -11,7 +11,7 @@ permalink: "/proyectos/"
 .column {
   float: left;
   width: 50%;
-  padding: 1rem;
+  padding: 1.3rem;
   margin-bottom:1rem;
 }
 
@@ -27,24 +27,20 @@ permalink: "/proyectos/"
   clear: both;
 }
 
+.column a img {
+	opacity:1;
+}
+
+.column a:hover img {
+	opacity:0.5;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
 </style>
-
-<ul class="post-list" style="padding:0;">
-{% for proyecto in site.proyectos %}
-    <li>
-  	  <span class="post-meta"><a href="{{ proyecto.url }}" class="button">Visitar</a></span>
-	  <h3 style="margin:0;font-weight:100 !important;">
-	   <a href="{{ proyecto.url }}" class="post-link">{{ proyecto.title }}</a>
-	  </h3>
-	  <p>{{ proyecto.stub }}</p>
-  </li>
-{% endfor %}
-</ul> 
 
 <ul class="row projects-list">
 {% for proyecto in site.proyectos %}
