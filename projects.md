@@ -49,7 +49,7 @@ permalink: "/proyectos/"
 <ul class="row projects-list">
 {% for proyecto in site.proyectos %}
     <li class="column">
-	  <a href="{{ proyecto.url }}"><img src="https://picsum.photos/400" alt="" /></a>
+	  <a href="{{ proyecto.url }}"><img src="{{ proyecto.thumb }}" alt="{{ proyecto.title }}" /></a>
 	  <h3 style="margin:0;font-weight:100 !important;">
 	   <a href="{{ proyecto.url }}" class="post-link">{{ proyecto.title }}</a>
 	  </h3>
