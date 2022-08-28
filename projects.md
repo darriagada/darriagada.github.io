@@ -12,7 +12,7 @@ permalink: "/proyectos/"
   float: left;
   width: 50%;
   padding: 1.3rem;
-  margin-bottom:1rem;
+  margin-bottom:.5rem;
 }
 
 .projects-list {
