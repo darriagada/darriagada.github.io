@@ -2,7 +2,7 @@
 layout: project
 title: Retro Noise
 type: Texturas
-year: 2019
+year: 2020
 stub: Colección de texturas de ruido animadas
 picture: /public/images/work/retro_noise.png
 thumb: /public/images/work/retro_noise_small.gif
