@@ -12,7 +12,7 @@ permalink: "/proyectos/"
   float: left;
   width: 50%;
   padding: 1.3rem;
-  margin-bottom:.5rem;
+  margin-bottom:.2rem;
 }
 
 .projects-list {
@@ -47,7 +47,7 @@ permalink: "/proyectos/"
 </style>
 
 <ul class="row projects-list">
-{% for proyecto in site.proyectos %}
+{% for proyecto in site.proyectos reversed %}
     <li class="column">
 	  <a href="{{ proyecto.url }}"><img src="{{ proyecto.thumb }}" alt="{{ proyecto.title }}" /></a>
 	  <h3 style="margin:0;font-weight:100 !important;">
