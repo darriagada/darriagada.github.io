@@ -11,7 +11,7 @@ permalink: "/proyectos/"
 .column {
   float: left;
   width: 50%;
-  padding: 1.3rem;
+  padding: 0 1.5rem .9rem 1.5rem;
   margin-bottom:0;
 }
 
