@@ -184,6 +184,41 @@ a {
    border-radius: 0;
 }
 
+/* Footnotes */
+/* Footnote number within body text */
+a[href^="#fn:"],
+/* Back to footnote link */
+a[href^="#fnref:"] {
+  display: inline-block;
+  margin-left: .1rem;
+  font-weight: bold;
+}
+
+.footnote {
+  background:#eee;
+  border-radius: 180px;
+  position: relative;
+  padding:1px 5px;
+  font-size: 10px;
+  text-decoration: none !important;
+}
+
+.footnote:active {
+  background:#000;
+  color:#fff;
+}
+
+/* List of footnotes */
+.footnotes {
+  margin-top: 2rem;
+  font-size: 85%;
+}
+
+/* Hightlight current target hack */
+.footnotes :target {
+  background: #fff7c2;
+}
+
 /* Buttons */
 .button {
   display: inline-block;
