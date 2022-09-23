@@ -9,9 +9,9 @@ Entiendo que hoy es el cumpleaños del primer _emoticon._ Ya son 40 años desde 
 
 Una combinación de 3 simples caracteres que dio paso a una nueva era para los chats, foros, correos y sobre todo en mensajería instantánea hasta el día de hoy. Incluso una [película animada](https://es.wikipedia.org/wiki/Emoji:_la_pel%C3%ADcula), pero eso es terreno prohibido… 💩
 
-Lo mas interesante (y absurdo que pueda parecer) fue descubrir que el emoji favorito 😂 de la generación Z fue considerado "Palabra del Año 2015"[^fn-word] por el diccionario de Oxford. Por primera vez, se escogía un pictograma como la "palabra" representativa de aquel año. Y con justa razón.
+Lo mas interesante _(y absurdo que pueda parecer)_ fue descubrir que el emoji favorito 😂 de la generación Z fue considerado [«Palabra del Año»](https://languages.oup.com/word-of-the-year/2015/)[^fn-word] por el diccionario de Oxford. Por primera vez, se escogía un pictograma como la «palabra» representativa de aquel año. Y con justa razón.
 
 ¿Qué emoji representaría el año 2022? 👀
 
-[^fn-history]: https://designtaxi.com/news/420439/Happy-Birthday-To-The-First-Emoticon-Which-Turns-40-Years-Old/
-[^fn-word]: https://languages.oup.com/word-of-the-year/2015/
+[^fn-history]: [Happy Birthday To The First Emotion Which Turns 40 Years Old](https://designtaxi.com/news/420439/Happy-Birthday-To-The-First-Emoticon-Which-Turns-40-Years-Old/)  — DesignTaxi.
+[^fn-word]: [Word of the Year 2015](https://languages.oup.com/word-of-the-year/2015/) — Oxford Languagues.
