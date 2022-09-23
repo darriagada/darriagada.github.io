@@ -42,7 +42,7 @@ permalink: "/proyectos/"
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-	padding: 0 1rem .9rem 1rem;
+	padding: 0 .5rem .9rem .5rem;
   }
   
   .logo {margin:0 auto !important;}
