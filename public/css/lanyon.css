@@ -138,8 +138,9 @@ a:hover {
 
 
 .logo {
-	margin:0 auto !important;
-	display:block;
+	/*margin:0 auto !important;*/
+	display:inline-block;
+	margin:0;
 }
 
 /* Archive */
