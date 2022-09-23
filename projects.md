@@ -44,6 +44,8 @@ permalink: "/proyectos/"
     width: 100%;
 	padding: 0 1rem .9rem 1rem;
   }
+  
+  .logo {margin:0 auto !important;}
 }
 </style>
 
