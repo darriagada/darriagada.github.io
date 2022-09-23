@@ -57,7 +57,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 a {
+	color:#1971c2;
+}
+
+a:hover {
 	color:#74c0fc;
+	background:#e7f5ff;
 }
 
 /*
