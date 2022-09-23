@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="153px" viewBox="0 0 153 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>favicon</title>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-Copy-2" fill="#000000" cx="76.5" cy="76.5" r="74.5"></circle>
+        <g id="Diego" transform="translate(47.000000, 33.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M0,0 L0,87 L27.2331606,87 C51.2331606,87 72,74.5891583 72,43.4379458 C72,12.4108417 51.2331606,0 27.2331606,0 L0,0 Z M48.1243523,43.4379458 C48.1243523,67.1426534 38.0518135,83.0285307 27.2331606,83.0285307 L23.8756477,83.0285307 L23.8756477,3.97146933 L27.2331606,3.97146933 C38.0518135,3.97146933 48.1243523,19.8573466 48.1243523,43.4379458 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
