@@ -143,6 +143,10 @@ a:hover {
 	margin:0;
 }
 
+.logo:hover {
+	background:transparent;
+}
+
 /* Archive */
 .post-list {
  padding:0 !important;
