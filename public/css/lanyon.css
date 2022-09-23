@@ -143,8 +143,8 @@ a:hover {
 	margin:0;
 }
 
-.logo:hover {
-	background:none;
+a.logo:hover {
+	background:none !important;
 }
 
 /* Archive */
