@@ -5,7 +5,7 @@ tags: Retrospectiva
 ---
 ![Emoji](/public/images/posts/post_smiley_hero_2x.png)
 
-Entiendo que hoy es el cumpleaños del primer _emoticon._ Ya son 40 años desde que el profesor de ciencias y computación Scott Fahlman escribió :-) en la intranet de la universidad Carnegie Mellon el 19 de Septiembre del año 1982.[^fn-history]
+Entiendo que hoy es el cumpleaños del primer _emoticon._ Ya son 40 años desde que el profesor y científico de la computación, [Scott Fahlman](https://es.wikipedia.org/wiki/Scott_Fahlman) escribió :-) en la intranet de la Universidad Carnegie Mellon el 19 de Septiembre del año 1982.[^fn-history]
 
 Una combinación de 3 simples caracteres que dio paso a una nueva era para los chats, foros, correos y sobre todo en mensajería instantánea hasta el día de hoy. Incluso una [película animada](https://es.wikipedia.org/wiki/Emoji:_la_pel%C3%ADcula), pero eso es terreno prohibido… 💩
 
