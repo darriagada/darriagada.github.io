@@ -9,8 +9,6 @@ Entiendo que hoy es el cumpleaños del primer _emoticon._ Ya son 40 años desde 
 
 Una combinación de 3 simples caracteres que dio paso a una nueva era para los chats, foros, correos y sobre todo en mensajería instantánea hasta el día de hoy. Incluso una [película animada](https://es.wikipedia.org/wiki/Emoji:_la_pel%C3%ADcula), pero eso es terreno prohibido… 💩
 
-Sidenote: MSN Messenger fue mi introducción a los emoticons.
-
 Lo mas interesante (y absurdo que pueda parecer) fue descubrir que el emoji favorito 😂 de la generación Z fue considerado "Palabra del Año 2015"[^fn-word] por el diccionario de Oxford. Por primera vez, se escogía un pictograma como la "palabra" representativa de aquel año. Y con justa razón.
 
 ¿Qué emoji representaría el año 2022? 👀
