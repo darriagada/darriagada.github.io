@@ -144,7 +144,7 @@ a:hover {
 }
 
 .logo:hover {
-	background:transparent;
+	background:none;
 }
 
 /* Archive */
