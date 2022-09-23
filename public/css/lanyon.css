@@ -44,16 +44,21 @@ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
+body {
+	color:#495057;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #313131;
+  color: #495057;
   letter-spacing: -.025rem;
 }
 
 
 a {
 	color:#000;
+	border-bottom:1px solid #eee;
 }
 
 /*
