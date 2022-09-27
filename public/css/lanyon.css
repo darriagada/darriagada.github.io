@@ -108,18 +108,17 @@ a:hover {
   margin-bottom: 0;
   list-style: none;
   margin-top:12px;
-
-  li {
+}
+.menu li {
     display: inline-block;
-    a {
+}
+.menu li  a {
       color: #616161;
     }
-  }
   
-  li + li {
+.menu li + li {
     margin-left: .5rem;
   }
-}
 
 /*
  * Masthead
