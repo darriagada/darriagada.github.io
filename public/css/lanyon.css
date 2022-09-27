@@ -101,6 +101,10 @@ a:hover {
 
 
 /* Custom Nav */
+.menu-wrap {
+	text-align:right;
+}
+
 .menu {
   padding-left: 0;
   font-size:18px;
@@ -161,6 +165,7 @@ a:hover {
 	/*margin:0 auto !important;*/
 	display:inline-block;
 	margin:0;
+	float:left;
 }
 
 /* Archive */
