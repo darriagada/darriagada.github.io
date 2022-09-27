@@ -100,6 +100,27 @@ a:hover {
 }
 
 
+/* Custom Nav */
+.navigation {
+  padding-left: 0;
+  font-size:18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  list-style: none;
+  margin-top:12px;
+
+  li {
+    display: inline-block;
+    a {
+      color: #616161;
+    }
+  }
+  
+  li + li {
+    margin-left: .5rem;
+  }
+}
+
 /*
  * Masthead
  *
