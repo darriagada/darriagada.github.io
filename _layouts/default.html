@@ -5,9 +5,9 @@
 
   <body class="layout-reverse">
 
-    {% include sidebar.html %}
+    <!--{% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+   Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
@@ -15,9 +15,16 @@
 				 <a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/public/images/branding_icon.svg?v1" alt="{{ site.title }}" title="{{ site.title }}" class="logo" width="45" height="45" /></a>
 				 
 				 <ul class="menu">
-				           <li><a href="/">Blog</a></li>
-				           <li><a href="/proyectos">Projects</a></li>
-				           <li><a href="/about">About</a></li>
+				           <li><a class="menu-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Blog</a></li>
+					       {% assign pages_list = site.pages | sort:"url" %}
+					       {% for node in pages_list %}
+					         {% if node.title != null %}
+					           {% if node.layout == "page" %}
+					             <li><a class="menu-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a></li>
+					           {% endif %}
+					         {% endif %}
+					       {% endfor %}
+						   
 				</ul>
         </div>
       </div>
