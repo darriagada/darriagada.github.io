@@ -124,7 +124,7 @@ a:hover {
     margin-left: .5rem;
   }
 
-.menu-item .active {
+.active {
 	font-weight:700 !important;
 } 
 
