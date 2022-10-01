@@ -3,7 +3,7 @@ layout: post
 title: Hace 40 años atrás… 
 tags: Retrospectiva
 ---
-![Emoji](/public/images/posts/post_smiley_hero_2x.png)
+![Emoji](/public/images/posts/emotes_hero_2x.png)
 
 Entiendo que hoy es el cumpleaños del primer _emoticon._ Ya son 40 años desde que el científico [Scott Fahlman](https://es.wikipedia.org/wiki/Scott_Fahlman) escribió :-) en la intranet de la Universidad Carnegie Mellon el 19 de Septiembre del año 1982.[^fn-history]
 
