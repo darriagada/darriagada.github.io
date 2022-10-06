@@ -60,3 +60,20 @@ permalink: "/proyectos/"
   </li>
 {% endfor %}
 </ul> 
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Proyectos antiguos</a>
+  {% else %}
+    <span class="pagination-item older">Proyectos antiguos</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Proyectos nuevos</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Proyectos nuevos</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Proyectos nuevos</span>
+  {% endif %}
+</div>
