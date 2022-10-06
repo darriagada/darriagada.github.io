@@ -8,18 +8,18 @@ layout: default
   {% assign m = page.date | date: "%-m" %}
   {{ page.date | date: "%-d" }}
   {% case m %}
-    {% when '1' %}Ene
-    {% when '2' %}Feb
-    {% when '3' %}Mar
-    {% when '4' %}Abr
-    {% when '5' %}May
-    {% when '6' %}Jun
-    {% when '7' %}Jul
-    {% when '8' %}Ago
-    {% when '9' %}Sep
-    {% when '10' %}Oct
-    {% when '11' %}Nov
-    {% when '12' %}Dic
+    {% when '1' %}Enero
+    {% when '2' %}Febrero
+    {% when '3' %}Marzo
+    {% when '4' %}Abril
+    {% when '5' %}Mayo
+    {% when '6' %}Junio
+    {% when '7' %}Julio
+    {% when '8' %}Agosto
+    {% when '9' %}Septiembre
+    {% when '10' %}Octubre
+    {% when '11' %}Noviembre
+    {% when '12' %}Diciembre
   {% endcase %}
   {{ page.date | date: "%Y" }}
    &middot; {{ page.tags }}
