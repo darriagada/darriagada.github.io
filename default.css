@@ -1,0 +1,106 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+html {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+@media (min-width: 38em) {
+    html {font-size: 18px;}
+}
+
+body {
+    color: #616161;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+::selection {
+    color:#fff;
+    background-color: #000;
+}
+
+a {
+    color: #069;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+.hero {
+    color:#49130D;
+    background-color: #FD7F00;
+    height: 100%;
+    position: relative;
+    font-size: 25px;
+}
+
+.inner-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.artwork {
+    width:350px;
+    height: auto;
+}
+
+.fa {
+    padding: 5px;
+    width:32px;
+    height:32px;
+    font-size:20px !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right:10px;
+    display:inline-block;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    background-color:#fff;
+}
+
+.fa-behance, .fa-instagram, .fa-envelope, .fa-github {
+    background: #49130D;
+    color: #FD7F00;
+}
+
+
+@media (max-width: 600px) {
+    .artwork {
+        width:280px;
+        height: auto;
+    }
+
+    .inner-hero {
+        line-height: 1.6rem;
+    }
+
+
+}

@@ -1,55 +1,47 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-    <span class="post-date">
-    {% assign m = post.date | date: "%-m" %}
-    {{ post.date | date: "%-d" }}
-    {% case m %}
-      {% when '1' %}Enero
-      {% when '2' %}Febrero
-      {% when '3' %}Marzo
-      {% when '4' %}Abril
-      {% when '5' %}Mayo
-      {% when '6' %}Junio
-      {% when '7' %}Julio
-      {% when '8' %}Agosto
-      {% when '9' %}Septiembre
-      {% when '10' %}Octubre
-      {% when '11' %}Noviembre
-      {% when '12' %}Diciembre
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
-	</span>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+  <meta name="description" content="Diego Arriagada is a graphic designer & troublemaker from Santiago, Chile.">
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Posts antiguos</a>
-  {% else %}
-    <span class="pagination-item older">Posts antiguos</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Posts nuevos</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Posts nuevos</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Posts nuevos</span>
-  {% endif %}
-</div>
+  <title>
+    
+      Diego Arriagada &middot; Graphic designer & illustrator
+    
+  </title>
+  
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
+    <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="hero">
+    <div class="inner-hero">
+        <img src="public/chris_hero.gif" alt="Diego Arriagada" class="artwork" />
+
+        <p>Graphic designer & illustrator</p>
+
+        <div class="social">
+            <a href="https://www.behance.net/diegoarriagada/" target="_blank" class="fa fa-behance"></a>
+
+            <a href="https://www.instagram.com/fueradegama/" target="_blank" class="fa fa-instagram"></a>
+
+            <a href="mailto:darriagada6@gmail.com?subject=Hello!" class="fa fa-envelope"></a>
+
+            <a href="https://github.com/darriagada/" target="_blank" class="fa fa-github"></a>
+        </div>
+    </div>
+</div> 
+</body>
+</html>
