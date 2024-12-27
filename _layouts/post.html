@@ -18,7 +18,8 @@ layout: default
         {% else if page.hero.size == "normal" %}
         <figure>
           {% endif %}
-      <img src="/assets/public/{{page.hero.src}}" srcset="/assets/public/{{page.hero.src | remove: '2x'}} 1x, /assets/public/{{page.hero.src}} 2x" alt="{{ page.title | escape }}" loading="lazy" class="inline-image article-image" />
+      <img src="/assets/public/{{page.hero.src}}" alt="{{ page.title | escape }}" loading="lazy" class="inline-image article-image" />
+      <!-- <img src="/assets/public/{{page.hero.src}}" srcset="/assets/public/{{page.hero.src | remove: '2x'}} 1x, /assets/public/{{page.hero.src}} 2x" alt="{{ page.title | escape }}" loading="lazy" class="inline-image article-image" /> -->
       {% if page.hero.caption %}
       <figcaption>{{page.hero.caption | escape }}</figcaption>
       {% else %}
