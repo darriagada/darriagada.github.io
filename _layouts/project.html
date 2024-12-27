@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section id="proyecto">
+  <article class="{{ page.title | escape }}">
+    <a href="/" class="go-back-link">&nwarr; Volver atrás</a>
+      <h1 class="post-title-big">{{ page.title | escape }}</h1>
+      <header class="post-meta-proyecto">
+          <div>
+              <h3>Año</h3>
+              {%- assign date_format = "%Y" -%}
+              <span>{{ page.date | date: date_format }}</span>
+          </div>
+          <div>
+              <h3>Categoría</h3>
+              <span>{{page.work.tags}}</span>
+          </div>
+              {%- if page.work.web | page.work.cta -%}
+              <div>
+                <h3>Link</h3>
+                <span><a href="{{page.work.web}}" class="external-link" target="_blank">{{page.work.cta}}</a></span>
+              </div>
+              {%- endif -%}
+      </header>
+
+      {% if page.featuredimage %}
+      {% if page.hero.size == "wide" %}
+      <figure class="wide project-hero">
+        {% else if page.hero.size == "normal" %}
+        <figure class="project-hero">
+          {% endif %}
+      <img src="{{ page.url | relative_url }}/assets/public/{{page.hero.src}}" srcset="/assets/public/{{page.hero.src | remove: '2x'}} 1x, /assets/public/{{page.hero.src}} 2x" alt="{{ page.title | escape }}" loading="lazy" class="inline-image project" />
+      {% if page.hero.caption %}
+      <figcaption>{{page.hero.caption | escape }}</figcaption>
+      {% else %}
+      {% endif %}
+    </figure>
+
+    {% else %}
+
+    {% endif %}
+
+      {{ content }}
+  </article>
+</section>

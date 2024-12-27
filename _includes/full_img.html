@@ -1,0 +1,9 @@
+<aside class="wide feat" id="{{ include.id }}">
+      <figure>
+      <img src="/assets/public/{{ include.image }}" srcset="/assets/public/{{ include.image | remove: '2x' }}
+      1x, /assets/public/{{ include.image }} 2x" loading="lazy" alt="{{ include.figcap }}" />
+      {% if include.figcap %}
+      <figcaption>{{ include.figcap }}</figcaption>
+      {% endif %}
+      </figure>
+  </aside>

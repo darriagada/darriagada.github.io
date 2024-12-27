@@ -1,0 +1,22 @@
+<head> <!-- build: {{ "now" | date: "%FT%T%z" }} -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.url and site.baseurl %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif %}
+
+  {%- seo -%}
+
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+  {%- feed_meta -%}
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/a11y-dark.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <script>hljs.highlightAll();</script>
+
+</head>
