@@ -24,15 +24,7 @@ Cuando trabajas en instituciones bancarias, es un hecho que **los enlaces están
 
 Pensaba, debería existir una herramienta para "matar" enlaces y evite la necesidad escribir códigos cada vez. Así que, armé algo muy rápido que deconstruye la URL para evitar que se genere automáticamente.
 
-```
-// El loop busca estos elementos
-www. 
-.com
-.cl 
-.org
-.net
-etc
-```
+{% include full_img.html id="Toolset" figcap="El loop verifica y divide las secciones de la URL por partes" image="f_urlsplit2x.png" %}
 
 > 👀 Desgraciadamente esto no es amigable para el usuario y es una pésima práctica de usabilidad, pero cuando no hay soluciones para evitar estos ataques, _tienes que improvisar._
 
