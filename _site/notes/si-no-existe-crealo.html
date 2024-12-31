@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es"><head> <!-- build: 2024-12-31T15:27:38-0300 -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Si no existe, créalo | Diego Arriagada</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Si no existe, créalo" />
+<meta name="author" content="Diego Arriagada" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cuando necesitas resolver algo y terminas armando más de la cuenta." />
+<meta property="og:description" content="Cuando necesitas resolver algo y terminas armando más de la cuenta." />
+<link rel="canonical" href="http://localhost:4000/notes/si-no-existe-crealo" />
+<meta property="og:url" content="http://localhost:4000/notes/si-no-existe-crealo" />
+<meta property="og:site_name" content="Diego Arriagada" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-12-30T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Si no existe, créalo" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Diego Arriagada"},"dateModified":"2024-12-30T00:00:00-03:00","datePublished":"2024-12-30T00:00:00-03:00","description":"Cuando necesitas resolver algo y terminas armando más de la cuenta.","headline":"Si no existe, créalo","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/notes/si-no-existe-crealo"},"url":"http://localhost:4000/notes/si-no-existe-crealo"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Diego Arriagada" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/a11y-dark.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <script>hljs.highlightAll();</script>
+
+  <script>
+    function decryptEmail(encoded) {
+      var address = atob(encoded);
+      window.location.href = "mailto:" + address;
+    }
+  </script>
+
+</head><body class="ribbon">
+    <main role="main" id="main" aria-label="Content">
+      <header id="header">
+          <a href="/"><img src="/assets/public/logo.svg" class="logo" alt="Diego Arriagada" title="Diego Arriagada" /></a>
+    </header>
+<div class="wrapper">
+        <section id="article">
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-meta">
+        <a href="/" class="go-back-link">&nwarr; Volver atrás</a>
+        <h1 class="post-title-big">Si no existe, créalo</h1>
+        <span class="post-fecha">
+          <time
+  datetime="2024-12-30 00:00:00 -0300"
+
+  
+    class="post-date"
+  
+>
+  30
+  
+  dic,
+ 2024
+</time> &middot; <i title="591 palabras">
+
+
+
+2 minutos</i>
+        </span>
+    </header>
+
+
+    
+      
+      <figure class="wide">
+        
+      <img src="/assets/public//posts/diy_hero2x.png" alt="Si no existe, créalo" loading="lazy" class="inline-image article-image" />
+      <!-- <img src="/assets/public//posts/diy_hero2x.png" srcset="/assets/public//posts/diy_hero.png 1x, /assets/public//posts/diy_hero2x.png 2x" alt="Si no existe, créalo" loading="lazy" class="inline-image article-image" /> -->
+      
+      
+    </figure>
+
+    
+
+    <p>El trabajo tiene muchos procesos repetitivos que se vuelven tediosos.</p>
+
+<p>Hoy tenemos IA y herramientas que nos permiten agilizar estos procesos de alguna manera y la verdad no tengo nada en contra de estos métodos, sin embargo, yo soy masoquista y siempre busco la opción más compleja. En este caso crear las cosas de cero.</p>
+
+<p>Estas son las <strong>3 herramientas</strong> que desarrollé en mi tiempo libre y quizás puedan ser útil alguna vez:</p>
+
+<h2 id="elimina-enlaces-en-tus-mailings-️">Elimina enlaces en tus mailings ✂️</h2>
+<p>🌎 <a href="https://darriagada.com/mata-links/" target="_blank">Visitar sitio</a> | 🧰 <a href="https://github.com/darriagada/mata-links" target="_blank">Código de fuente</a></p>
+
+<p>Cuando trabajas en instituciones bancarias, es un hecho que <strong>los enlaces están tajantemente descartados</strong> por el riesgo a que se generen estafas o phishing. Es algo que debes tener presente cuando toca diseñar un mailing nuevo.</p>
+
+<aside class="wide feat" id="Toolset">
+      <figure>
+      <img src="/assets/public/hero_url_file2x.png" loading="lazy" alt="https://darriagada.com/mata-links/" />
+      <!-- <img src="/assets/public/hero_url_file2x.png" srcset="/assets/public/hero_url_file.png
+      1x, /assets/public/hero_url_file2x.png 2x" loading="lazy" alt="https://darriagada.com/mata-links/" /> -->
+      
+      <figcaption>https://darriagada.com/mata-links/</figcaption>
+      
+      </figure>
+  </aside>
+
+<p>Pensaba, debería existir una herramienta para “matar” enlaces y evite la necesidad escribir códigos cada vez. Así que, armé algo muy rápido que deconstruye la URL para evitar que se genere automáticamente.</p>
+
+<aside class="wide feat" id="Toolset">
+      <figure>
+      <img src="/assets/public/f_urlsplit2x.png" loading="lazy" alt="El loop verifica y divide las secciones de la URL por partes" />
+      <!-- <img src="/assets/public/f_urlsplit2x.png" srcset="/assets/public/f_urlsplit.png
+      1x, /assets/public/f_urlsplit2x.png 2x" loading="lazy" alt="El loop verifica y divide las secciones de la URL por partes" /> -->
+      
+      <figcaption>El loop verifica y divide las secciones de la URL por partes</figcaption>
+      
+      </figure>
+  </aside>
+
+<blockquote>
+  <p>👀 Desgraciadamente esto no es amigable para el usuario y es una pésima práctica de usabilidad, pero cuando no hay soluciones para evitar estos ataques, <em>tienes que improvisar.</em></p>
+</blockquote>
+
+<h2 id="adjuntos-simples-en-marketing-cloud-">Adjuntos simples en Marketing Cloud 📎</h2>
+<p>🌎 <a href="https://darriagada.com/mkt-adjunto/" target="_blank">Visitar</a> | 🧰 <a href="https://github.com/darriagada/mkt-adjunto" target="_blank">Código de fuente</a></p>
+
+<p>Marketing Cloud es un bodrio. <strong>Seamos honestos.</strong></p>
+
+<p>A la hora de adjuntar archivos complementarios en tu correo, no es tan simple como presionar un botón y punto. Debes escribir un jeroglífico de variables que ni Indiana Jones podría descifrar:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%%=AttachFile("ContentBuilder","395e5926-d91f-4b88-a6a0-c4d66dd29bff","Documento de Prueba.pdf")=%%
+</code></pre></div></div>
+
+<aside class="wide feat" id="Toolset">
+      <figure>
+      <img src="/assets/public/hero_mtk_file2x.png" loading="lazy" alt="https://darriagada.com/mkt-adjunto/" />
+      <!-- <img src="/assets/public/hero_mtk_file2x.png" srcset="/assets/public/hero_mtk_file.png
+      1x, /assets/public/hero_mtk_file2x.png 2x" loading="lazy" alt="https://darriagada.com/mkt-adjunto/" /> -->
+      
+      <figcaption>https://darriagada.com/mkt-adjunto/</figcaption>
+      
+      </figure>
+  </aside>
+
+<p>Para evitar hacer esa tarea tediosa de recordar ese jeroglífico, la idea fue agilizar el proceso y llenar los campos con los datos solicitados y listo. Este genera de forma automática la variable para copiar y pegar.</p>
+
+<h2 id="calculadora-de-comisiones-">Calculadora de comisiones 💰</h2>
+<p>🌎 <a href="https://darriagada.com/calc/" target="_blank">Visitar</a> | 🧰 <a href="https://github.com/darriagada/calc" target="_blank">Código de fuente</a></p>
+
+<p>Si estás emprendiendo, obviamente te importa saber cómo funcionan las comisiones de tus ventas. Pero seamos honestos, muy pocos servicios son claros o simples para explicar sus números. Yo quiero saber de forma clara, <strong>cuánto voy a recibir a cambio.</strong></p>
+
+<aside class="wide feat" id="Toolset">
+      <figure>
+      <img src="/assets/public/hero_calc_file2x.png" loading="lazy" alt="https://darriagada.com/calc/" />
+      <!-- <img src="/assets/public/hero_calc_file2x.png" srcset="/assets/public/hero_calc_file.png
+      1x, /assets/public/hero_calc_file2x.png 2x" loading="lazy" alt="https://darriagada.com/calc/" /> -->
+      
+      <figcaption>https://darriagada.com/calc/</figcaption>
+      
+      </figure>
+  </aside>
+
+<p>De esta forma, tomé un archivo Excel que tenía los valores y lo transcribí a un <code class="language-plaintext highlighter-rouge">Javascript</code> simple que calcula automáticamente los montos en tiempo real para los productos de Compraquí.</p>
+
+<p>Las comisiones están pre-definidas en el código, por ejemplo:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let debito = 1.29;
+let credito = 1.59;
+let prepago = 1.44;
+</code></pre></div></div>
+
+<h2 id="qué-hago-con-esto">¿Qué hago con esto?</h2>
+<p>Estas herramientas son un Frankenstein, así que, puedes ver el código de cada uno, copiar, etc. Todas están bajo la <a href="https://choosealicense.com/licenses/mit/" target="_blank">licencia MIT</a>, que básicamente te invita a que experimentes todo lo que quieras y adaptes el material como quieras.</p>
+
+<p>Veamos qué desafíos y/o herramientas nuevas trae este 2025.</p>
+
+
+  </article>  
+</section>
+
+<style>
+  body.ribbon::after {
+    display: none;
+  }
+</style><footer id="footer">
+  <div>
+      <section>
+          <p>&copy; 2024 Diego Arriagada</p>
+      </section>
+      <section>
+          <a href="/archive/">Archivo</a> <a href="https://github.com/darriagada">Github</a> <a href="#main">Arriba &uarr;</a>
+      </section>
+  </div>
+</footer></div>
+
+    </main>
+  </body>
+</html>
