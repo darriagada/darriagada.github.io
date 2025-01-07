@@ -7,7 +7,7 @@ featuredimage: true
 work: 
   thumb: logo_tt_iso_motion.gif
   tags: Diseño, Programación
-  web: https://darriagada.is/tteams
+  web: https://darriagada.com/ruin-my-day/
   cta: Visitar
 hero:
   size: wide
