@@ -1,10 +1,10 @@
 <header id="header">
   <div>
- <a href="{{ site.baseurl }}"><img src="{{ "/assets/logo.svg" | relative_url }}" alt="Logo" class="logo"></a>
+ <a href="/"><img src="{{ "/assets/logo.svg" | relative_url }}" alt="Logo" class="logo"></a>
 </div>
   <nav role="navigation">
       <ul>
-          <li><a href="{{ site.baseurl }}" class="{% if page.url == site.baseurl %} active{% endif %}">Inicio</a></li>
+          <li><a href="/" class="{% if page.url == site.baseurl %} active{% endif %}">Inicio</a></li>
           {% assign pages_list = site.pages %}
           {% for node in pages_list %}
             {% if node.title != null %}
