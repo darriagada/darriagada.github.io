@@ -46,7 +46,7 @@ work:
 
 
 <header style="text-align: left;margin: 4ch auto;">
-    <h2 class="hero">Optimizando las experiencia de usuario</h2>
+    <h2 class="hero">Optimizando la experiencia de usuario</h2>
     <p>El sitio anterior solo ocupaba 2 colores: naranjo y gris. Esto predispone a generar fatiga visual. La introducción de nuevos colores permitió refrescar el sitio, productos y reforzar la jerarquía de información. Además se privilegió el espacio blanco para dar un respiro al contenido y re-diagramar cada landing para obtener un resultado limpio, llamativo y moderno.</p>
 </header>
 
