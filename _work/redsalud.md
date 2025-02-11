@@ -56,3 +56,23 @@ work:
     <img src="/public/work/redsalud/rs_ma_03.png" alt="Boxset" loading="lazy">
 </figure>
 
+<section class="c3-grid">
+    <figure>
+        <img src="/public/work/redsalud/rs_m_01.gif" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/redsalud/rs_m_02.gif" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/redsalud/rs_m_03.gif" loading="lazy" alt=""> 
+    </figure> 
+    <figure>
+        <img src="/public/work/redsalud/rs_m_04.gif" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/redsalud/rs_m_05.gif" loading="lazy" alt=""> 
+    </figure>  
+    <figure>
+        <img src="/public/work/redsalud/rs_m_06.gif" loading="lazy" alt=""> 
+    </figure>                     
+</section>
