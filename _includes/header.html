@@ -1,13 +1,21 @@
-{% if page.title == "Portada" %}
-    <header id="header">
-        <a href="/"><img src="{{ "/assets/public/logo.svg" | relative_url }}" class="logo" alt="{{ site.title | escape }}" title="{{ site.title | escape }}" /></a>
-        <h1 class="hero-title">hola.</h1>
-        <p>Soy <strong>Diego</strong>. Un diseñador gráfico chileno.</p>
-        <p>Te doy la bienvenida a mi pequeño rincón web donde comparto algunos de mis proyectos, opiniones que nadie preguntó y otras cosas de mi interés.</p>
-        <p>Puedes <a href="javascript:decryptEmail('ZGFycmlhZ2FkYTZAZ21haWwuY29t');">escribirme</a> si quieres 👋</p>
-  </header>      
-    {% else %}
-      <header id="header">
-          <a href="/"><img src="{{ "/assets/public/logo.svg" | relative_url }}" class="logo" alt="{{ site.title | escape }}" title="{{ site.title | escape }}" /></a>
-    </header>
-{% endif %}
+<header id="header">
+  <div>
+ <a href="{{ site.baseurl }}"><img src="{{ "/assets/logo.svg" | relative_url }}" alt="Logo" class="logo"></a>
+</div>
+  <nav role="navigation">
+      <ul>
+          <li><a href="{{ site.baseurl }}" class="{% if page.url == site.baseurl %} active{% endif %}">Inicio</a></li>
+          {% assign pages_list = site.pages %}
+          {% for node in pages_list %}
+            {% if node.title != null %}
+              {% if node.layout == "page" %}
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          <li><button data-toggle-theme="dark,light" title="Modo nocturno" data-act-class="isNight"><svg width="16px" height="16px" class="darkmode" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" />
+              </svg></button></li>
+      </ul>
+  </nav>
+</header>

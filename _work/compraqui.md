@@ -1,41 +1,68 @@
 ---
 layout: project
 title: Compraquí
-description: Rediseño de imagen y sitio web para Compraquí de BancoEstado.
+description: >- 
+    El sitio de Compraquí necesitaba un rediseño urgente desde el 2019. Tuve la oportunidad de liderar el proyecto de rediseño web, diseñando componentes, landings y la dirección de arte nueva, tanto para el sitio como para la marca.
 date: 01-10-2024
-featuredimage: true
+tags: diseño figma web ux branding
+image: /public/work/compraqui/ca_00.png
 work: 
-  thumb: ca_thumb.png
-  tags: Diseño, Concepto
+  thumb: compraqui/ca_thumb.png
   web: https://www.compraqui.cl/
-  cta: Visitar
-hero:
-  size: wide
-  src: ca_web2x.png 
+  cta: Sitio web
 ---
-{% include 2col.html id="EXAMPLE-ID" imagea="ca_thumb2x.png" figcap1="Fotos de productos reales y no renders" imageb="ca_thumb22x.png" figcap2="Iconografía nueva para diversos usos" %}
+<figure class="full">
+    <img src="/public/work/compraqui/ca_00.png" alt="Boxset" loading="lazy">
+</figure>
 
-## Un cambio de look radical.
+<figure class="full">
+    <img src="/public/work/compraqui/ca_h_01.png" alt="Boxset" loading="lazy">
+</figure>
 
-Un proyecto ambicioso que consistió en 2 etapas: **rediseñar el sitio y a la vez, refrescar imagen de marca.** Trabajando codo a codo con el equipo de desarrollo de la entidad bancaria para llevar a cabo la propuesta.
+<section class="c2-grid-break">
+    <figure>
+        <img src="/public/work/compraqui/ca_02.png" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/compraqui/ca_03.png" loading="lazy" alt="">
+    </figure>
+</section>
 
-Yo estuve encargado de dirigir el proceso de diseño del sitio nuevo, creando, prototipando y rediseñando secciones nuevas para modernizar el sitio antiguo sin perder la identidad propia. Priorizando mejor lectura, más aire y mejor usabilidad.
+<figure class="full">
+    <img src="/public/work/compraqui/ca_h_02.png" alt="Boxset" loading="lazy">
+</figure>
 
-Existieron **muchas limitaciones y replanteamientos** desde el inicio, lo que hizo el proyecto aún más desafiante. Algunas de las falencias del sitio antiguo eran:
+<section class="c3-grid">
+    <figure>
+        <img src="/public/work/compraqui/ca_b_01.png" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/compraqui/ca_b_02.png" loading="lazy" alt="">
+    </figure>
+    <figure>
+        <img src="/public/work/compraqui/ca_b_03.png" loading="lazy" alt="">
+    </figure>  
+</section>
 
-{: class="foda"}
-* Difícil de actualizar.
-* Sin modo responsivo funcional.
-* Diseño genérico y obsoleto.
-* Mala experiencia de usuario.
-* Sin jerarquías ni orden de elementos.
-* Poca coherencia entre landings.
 
-{% include full_img.html id="Feature" image="chaos_figma2x.png" figcap="Prototipo detallado del nuevo sitio realizado en Figma." %}
+<header style="text-align: left;margin: 4ch auto;">
+    <h2 class="hero">Optimizando las experiencia de usuario</h2>
+    <p>El sitio anterior solo ocupaba 2 colores: naranjo y gris. Esto predispone a generar fatiga visual. La introducción de nuevos colores permitió refrescar el sitio, productos y reforzar la jerarquía de información. Además se privilegió el espacio blanco para dar un respiro al contenido y re-diagramar cada landing para obtener un resultado limpio, llamativo y moderno.</p>
+</header>
 
-## Refresh gráfico
-El estilo original de Compraquí utilizaba el color naranja de forma prominente, sin gradaciones ni colores adicionales. Aproveché de incorporar una nueva paleta más versátil y dinámica que funcionara acorde a la variedad de productos ofrecidos y diversidad de rubros que usan el servicio.
+<section class="c2-grid-break">
+    <figure>
+        <img src="/public/work/compraqui/ca_c_01.png" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/compraqui/ca_c_02.png" loading="lazy" alt="">
+    </figure>
+</section>
 
-{% include 2col.html id="EXAMPLE-ID" imagea="ca_colors2x.png" figcap1="Colores cálidos y más amigables." imageb="ca_art2x.png" figcap2="Composiciones más dinámicas y menos cuadradas" %}
+<header style="text-align: left;margin: 4ch auto;">
+    <p>Se generó un prototipo de Figma con todas las páginas y con su kit de componentes. De esta manera, tenemos un mayor control del diseño y reforzamos la consistencia del diseño, así todos los equipos pueden trabajar en el sitio sin obstáculos y en línea.</p>
+</header>
 
-{% include full_img.html id="Feature" image="style_ca2x.png" %}
+<figure class="full">
+    <img src="/public/work/compraqui/ca_08.png" alt="Boxset" loading="lazy">
+</figure>

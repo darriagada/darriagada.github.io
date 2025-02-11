@@ -1,32 +1,43 @@
 ---
 layout: project
 title: Vaporkit
-description: Mockups de interfaces retro.
-date: 01-11-2021
-featuredimage: true
+description: >- 
+    Recreación de interfaces clásicas de Windows™ y Mac™ para ocuparlas como complemento en arte estilo vaporwave, fotos retro o lo que se te ocurra. Son 100% personalizables y gratuitos.
+date: 01-10-2023
+tags: retro mockup personal
+image: /public/work/vaporkit/vk_01.png
 work: 
-  thumb: vapor.png
-  tags: Diseño
+  thumb: vaporkit/vk_thumb.png
   web: https://github.com/darriagada/Vapor-Kit/releases/latest
   cta: Descargar
-hero:
-  size: wide
-  src: vk_hero2x.png
 ---
-{% include 2col.html id="EXAMPLE-ID" imagea="crt_lines2x.png" figcap1="Estilo Windows™ 98" imageb="crt_lines_b2x.png" figcap2="Efecto de post-proceso pantalla CRT" %}
+<figure class="full">
+    <img src="/public/work/vaporkit/vk_01.png" alt="Boxset" loading="lazy">
+</figure>
 
-## Recreando interfaces retro
+<section class="c2-grid">
+    <figure>
+        <img src="/public/work/vaporkit/vk_02.png" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/vaporkit/vk_03.png" loading="lazy" alt="">
+    </figure>
+</section>
 
-Hay algo muy llamativo en lo cuadrado y obtuso de las interfaces de sistemas operativos antiguos. Hoy tenemos sistemas muy limpios y a veces tienden a parecerse unos con otros, pero en el pasado estas interfaces marcaron un antes y un después en cómo visualizamos los elementos en pantalla.
+<figure class="full">
+    <img src="/public/work/vaporkit/vk_04.png" alt="Boxset" loading="lazy">
+</figure>
 
-Todo organizado en ventanas, botones para presionar y personalidad propia.
+<section class="c3-grid">
+    <figure>
+        <img src="/public/work/vaporkit/vk_05.png" loading="lazy" alt=""> 
+    </figure>
 
-Estas son recreaciones de algunas de mis interfaces favoritas (de Windows y Mac) donde podrás insertar tus fotos, ilustraciones o lo que quieras y transportarte al pasado.
-
-## Características
-
-{: class="features"}
-* 6 mockups de ventanas UI (Windows + Mac)
-* 100% modificable; todo está separado por capas.
-* Listos para retina, creados en alta resolución.
-* Efectos de post-producción (filtros de pantalla).
+<figure>
+    <img src="/public/work/vaporkit/vk_06.png" loading="lazy" alt="">
+</figure>
+  
+<figure>
+    <img src="/public/work/vaporkit/vk_07.png" loading="lazy" alt="">
+</figure>
+</section>

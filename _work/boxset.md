@@ -1,35 +1,46 @@
 ---
 layout: project
 title: Boxset
-description: Mockup de empaque de retail.
-date: 01-07-2020
-featuredimage: true
+description: >- 
+    Diseñé mi propio mockup gratuito que imita un packaging de retail. Es 100% personalizable y de alta calidad. Incluye opciones como plastificado, gancho de plástico, distintos ángulos y más. Ha sido descargado más de <a href="https://www.behance.net/gallery/94218299/Boxset-Mockup" target="_blank">3.000 veces</a> desde 2019.
+date: 01-10-2019
+tags: diseño digital mockup personal
+image: /public/work/boxset/bs07.png
 work: 
-  thumb: boxset.png
-  tags: Diseño
+  thumb: boxset/bs_thumb.png
   web: https://github.com/darriagada/Boxset/releases
   cta: Descargar
-hero:
-  size: wide
-  src: bs_hero2x.png
 ---
-{% include 2col.html id="EXAMPLE-ID" imagea="boxset_a2x.png" imageb="boxset_b2x.png" %}
+<figure class="full">
+    <img src="/public/work/boxset/bs07.png" alt="Boxset" loading="lazy">
+</figure>
 
-## Un mockup de packaging versátil y gratuito
+<figure class="full">
+    <img src="/public/work/boxset/bs_hero.png" alt="Boxset" loading="lazy">
+</figure>
 
-En la Universidad debo haber descargado unos 500 mockups para presentar mis exámenes, proyectos e ideas y con ello, siempre me llamó la atención saber qué tan difícil podía ser diseñar uno propio desde cero.
+<section class="c2-grid">
+    <figure>
+        <img src="/public/work/boxset/bs01.png" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/boxset/bs02.png" loading="lazy" alt="">
+    </figure>
+</section>
 
-Me decidí por hacer una caja de retail con diversas opciones de configuración. Para sumarle dificultad, no usé fotos y diseñé toda la armazón con vectores y capas inteligentes. Nada de renders 3D porque honestamente, no tengo idea.
+<figure class="full">
+    <img src="/public/work/boxset/bs03.png" alt="Boxset" loading="lazy">
+</figure>
 
-## Características
+<section class="c2-grid">
+    <figure>
+        <img src="/public/work/boxset/bs05.png" loading="lazy" alt=""> 
+    </figure>
+    <figure>
+        <img src="/public/work/boxset/bs06.png" loading="lazy" alt="">
+    </figure>
+</section>
 
-{: class="features"}
-* 6 ángulos diferentes.
-* Efecto de plastificado opcional.
-* 100% personalizable.
-* Resolución en 4K.
-
-
-La [comunidad de Behance](https://www.behance.net/gallery/94218299/Boxset-Mockup){: target="_blank"} agradeció mi esfuerzo y me regaló **más de 1.000 apreciaciones y 3 mil descargas.** Algunos comentarios:
-
-{% include full_img.html id="Reviews" image="reviews_boxset2x.png" %}
+<figure class="full">
+    <img src="/public/work/boxset/bs04.png" alt="Boxset" loading="lazy">
+</figure>

@@ -3,8 +3,6 @@
     <div>
       <figure>
       <img src="/assets/public/{{ include.imagea }}" loading="lazy" alt="{{ include.figcap1 }}" />
-      <!-- <img src="/assets/public/{{ include.imagea }}" srcset="/assets/public/{{ include.imagea | remove: '2x' }}
-      1x, /assets/public/{{ include.imagea }} 2x" loading="lazy" alt="{{ include.figcap1 }}" /> -->
       {% if include.figcap1 %}
       <figcaption>{{ include.figcap1 }}</figcaption>
       {% endif %}
@@ -13,7 +11,6 @@
     <div>
       <figure>
         <img src="/assets/public/{{ include.imageb }}" loading="lazy" alt="{{ include.figcap2 }}" />
-        <!-- <img src="/assets/public/{{ include.imageb }}" srcset="/assets/public/{{ include.imageb | remove: '2x' }} 1x, /assets/public/{{ include.imageb }} 2x" loading="lazy" alt="{{ include.figcap2 }}" /> -->
         {% if include.figcap2 %}
         <figcaption>{{ include.figcap2 }}</figcaption>
         {% endif %}
@@ -21,3 +18,13 @@
     </div>
   </section>
   </aside>
+
+
+<section class="c2-grid">
+      <figure>
+      <img src="/public/work/public/{{ include.imagea }}" loading="lazy" alt=""> 
+      </figure>
+      <figure>
+        <img src="/public/work/{{ include.imageb }}" loading="lazy" alt="">
+      </figure>
+</section>

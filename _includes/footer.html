@@ -1,3 +1,4 @@
+<!--
 <footer id="footer">
   <div>
       <section>
@@ -7,4 +8,30 @@
           <a href="/archive/">Archivo</a> <a href="https://github.com/{{site.github_username | escape}}">Github</a> <a href="#main">Arriba &uarr;</a>
       </section>
   </div>
+</footer> -->
+<footer id="footer">
+    <div>
+        &copy; {{ site.time | date: '%Y' }} Diego Arriagada.
+    </div>
+    <div>  
+        <a href="mailto:darriagada6 at gmail.com" target="_blank">email</a> &middot; <a href="https://www.behance.net/diegoarriagada/" target="_blank">behance</a>
+    </div>
 </footer>
+<script type="text/javascript">
+    let mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<section id="article">
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-meta">
+        <a href="/" class="go-back-link">&nwarr; Volver atrás</a>
+        <h1 class="post-title-big">{{ page.title | escape }}</h1>
+        <span class="post-fecha">
+          {% include date_es.html date=page.date time-attributes='class="post-date"' %} &middot; <i title="{{ page.content | number_of_words }} palabras">{% include time.html %}</i>
+        </span>
+    </header>
+
+
+    {% if page.featuredimage %}
+      {% if page.hero.size == "wide" %}
+      <figure class="wide">
+        {% else if page.hero.size == "normal" %}
+        <figure>
+          {% endif %}
+      <img src="/assets/public/{{page.hero.src}}" alt="{{ page.title | escape }}" loading="lazy" class="inline-image article-image" />
+      <!-- <img src="/assets/public/{{page.hero.src}}" srcset="/assets/public/{{page.hero.src | remove: '2x'}} 1x, /assets/public/{{page.hero.src}} 2x" alt="{{ page.title | escape }}" loading="lazy" class="inline-image article-image" /> -->
+      {% if page.hero.caption %}
+      <figcaption>{{page.hero.caption | escape }}</figcaption>
+      {% else %}
+      {% endif %}
+    </figure>
+
+    {% else %}
+
+    {% endif %}
+
+    {{ content }}
+
+  </article>  
+</section>
+
+<style>
+  body.ribbon::after {
+    display: none;
+  }
+</style>

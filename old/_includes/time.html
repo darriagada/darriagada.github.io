@@ -1,0 +1,7 @@
+{% capture words %}
+  {{ page.content | number_of_words | minus: 250 }}
+{% endcapture %}
+
+{% assign words = page.content | strip_html | number_of_words %}
+{% assign ert = words | divided_by:250 | plus: 1 %}
+{{ ert }} minuto{% if ert != 1 %}s{% endif %}
