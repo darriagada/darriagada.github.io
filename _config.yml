@@ -24,7 +24,7 @@ email: darriagada6@gmail.com
 locale: es_ES
 description: >- # this means to ignore newlines until "baseurl:"
   Diego Arriagada es un diseñador gráfico chileno que se enfoca en diseño digital, ilustración, producción audiovisual y web. Este es su portafolio oficial donde podrás encontrar diversos trabajos destacados y proyectos personales. Diego ha trabajado con equipos de RedSalud, Canal 13, Enjoy, Comino, Compraquí, entre otros.
-baseurl: # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: https://darriagada.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
