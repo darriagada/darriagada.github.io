@@ -4,7 +4,7 @@
 </div>
   <nav role="navigation">
       <ul>
-          <li><a href="/" class="{% if page.url == site.baseurl %} active{% endif %}">Inicio</a></li>
+          <li><a href="/" class="{% if page.title == Diego Arriagada | Diseñador gráfico %} active{% endif %}">Inicio</a></li>
           {% assign pages_list = site.pages %}
           {% for node in pages_list %}
             {% if node.title != null %}
