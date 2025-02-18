@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<style>
+  .active {
+    opacity: 0.3;
+  }
+</style>
+<section id="proyecto">
+  <article class="{{ page.tags | sort | join: " " }}">
+
+    <header class="project-header">
+      <span class="date">{%- assign date_format = "%Y" -%} {{ page.date | date: date_format }}</span>
+      <h1>{{ page.title | escape }}</h1>
+      <p>{{ page.description }}</p>
+      <span class="metadata">{{page.work.tags}}</span>
+
+      {%- if page.tags -%}
+      <span class="metadata">
+      {% for tag in page.tags %}
+      <a href="">{{ tag }}</a> <!-- {{site.baseurl}}/archive.html#{{tag | slugize}} -->
+      {% endfor %}
+      </span>
+      {%- endif -%}
+
+      {%- if page.work.web | page.work.cta -%}
+        <a href="{{page.work.web}}" class="action-button" target="_blank">{{page.work.cta}}</a>
+      {%- endif -%}
+  </header>
+      {{ content }}
+  </article>
+</section>
+
+<aside class="more-projects">
+{% include sketches.html %}
+</aside>

@@ -1,0 +1,11 @@
+{%- if site.sketch.size > 0 -%}
+  {%- assign sketchPosts = site.sketch sort: 'date' -%}
+  <section class="grid">
+      {%- assign post_limit = site.home_post_limit | default: 12 -%}
+      {%- for post in sketchPosts limit:post_limit -%}
+      <article>
+        <a href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}" class="{% if page.title == post.title %}active{% endif %}"><img src="/public/sketches/{{post.thumbnail}}" alt="{{ post.title | escape }}" loading="lazy" /></a>
+      </article>
+      {%- endfor -%}
+  </section>
+{%- endif -%}

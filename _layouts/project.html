@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<style>
+  .active {
+    opacity: 0.3;
+  }
+</style>
 <section id="proyecto">
   <article class="{{ page.tags | sort | join: " " }}">
 
@@ -25,3 +30,7 @@ layout: default
       {{ content }}
   </article>
 </section>
+
+<aside class="more-projects">
+{% include projects.html %}
+</aside>

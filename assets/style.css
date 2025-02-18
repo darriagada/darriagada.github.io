@@ -441,6 +441,24 @@ nav ul li .darkmode {
     margin-bottom: 1rem;
 }
 
+.page header {
+    text-align: center;
+    margin: 4ch auto;
+}
+
+.more-projects {
+    margin: 3ch auto;
+}
+
+.more-projects::before {
+    content: '';
+    width: 100%;
+    background: var(--theme-meta);
+    opacity: 0.2;
+    height: 1px;
+    display: block;
+    margin: 4ch auto;
+}
 
 /* Mobile */
 @media (min-width:768px) {
@@ -521,6 +539,11 @@ nav ul li .darkmode {
     h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
+    }
+
+    .page header {
+        text-align: center;
+        margin: 10ch auto;
     }
     
 }

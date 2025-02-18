@@ -45,7 +45,10 @@ minima:
 collections:
   work: # collection for personal blog posts
     output: true
-    permalink: /work/:name  
+    permalink: /work/:name
+  sketch: # collection for personal blog posts
+    output: true
+    permalink: /sketch/:name      
 
 # Exclude from processing.
 # The following items will not be processed, by default.
