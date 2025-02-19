@@ -460,6 +460,10 @@ nav ul li .darkmode {
     margin: 4ch auto;
 }
 
+.active {
+    opacity: 0.3 !important;
+}
+
 /* Mobile */
 @media (min-width:768px) {
     body {
