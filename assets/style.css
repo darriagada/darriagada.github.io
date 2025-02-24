@@ -461,7 +461,7 @@ nav ul li .darkmode {
 }
 
 .current {
-    opacity: 0.3 !important;
+    filter: grayscale(100%) contrast(50%);
 }
 
 /* Mobile */

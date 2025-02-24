@@ -1,5 +1,5 @@
 {%- if site.sketch.size > 0 -%}
-  {%- assign sketchPosts = site.sketch sort: 'date' -%}
+  {%- assign sketchPosts = site.sketch sort: 'date' | reverse -%}
   <section class="grid">
       {%- assign post_limit = site.home_post_limit | default: 12 -%}
       {%- for post in sketchPosts limit:post_limit -%}

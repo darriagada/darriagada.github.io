@@ -460,8 +460,8 @@ nav ul li .darkmode {
     margin: 4ch auto;
 }
 
-.active {
-    opacity: 0.3 !important;
+.current {
+    filter: grayscale(100%) contrast(50%);
 }
 
 /* Mobile */
