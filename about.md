@@ -13,7 +13,7 @@ image: /public/me.jpg
 <div>
     <p>Soy <strong>Diego Arriagada.</strong> Un diseñador gráfico chileno que siempre está buscando nuevas formas de aportar visualmente en pantallas o medios digitales.</p>
     <p>Mi enfoque multididacta me ha permitido experimentar con diversos formatos digitales e impresos desde branding, ilustración, motion/vídeo y web.</p>
-    <p>Actualmente <strong>trabajo para Red Global S.A.</strong></p>
+    <p>Actualmente <strong>trabajo para <a href="https://www.tenpo.cl/" target="_blank">Tenpo</a></strong></p>
     <h2>Clientes</h2>
     <p>He tenido la oportunidad de colaborar con equipos de <a href="https://www.redsalud.cl/" target="_blank">RedSalud</a>, <a href="https://www.13.cl/" target="_blank">Canal 13</a>, <a href="https://www.instagram.com/cafeteria_caffeine/" target="_blank">Caffeine</a>, <a href="https://www.comino.cl/" target="_blank">Comino Producciones</a>, <a href="https://www.compraqui.cl/" target="_blank">Compraquí</a>, entre otros más.</p>
     <h2>Social</h2>
