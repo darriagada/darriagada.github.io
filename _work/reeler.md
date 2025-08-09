@@ -2,7 +2,7 @@
 layout: project
 title: Reeler
 description: >- 
-    Diseñé mi propio mockup gratuito que imita un packaging de retail. Es 100% personalizable y de alta calidad. Incluye opciones como plastificado, gancho de plástico, distintos ángulos y más. Ha sido descargado más de <a href="https://www.behance.net/gallery/94218299/Boxset-Mockup" target="_blank">3.000 veces</a> desde 2019.
+    Diseñé y desarrollé una pequeña herramienta para facilitar el proceso de visualzación de Reels o Stories en Instagram cuando se trabaja en escritorio y es un proceso tedioso pasar el render al teléfono cada vez que se realiza un cambio.
 date: 08-08-2025
 tags: diseño desarrollo web
 image: /public/work/reeler/reeler_hero_light.png
