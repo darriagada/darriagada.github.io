@@ -1,7 +1,7 @@
 {%- if site.work.size > 0 -%}
 {%- assign workPosts = site.work sort: 'date' | reverse -%}
 <section class="grid">
-    {%- assign post_limit = site.home_post_limit | default: 12 -%}
+    {%- assign post_limit = site.home_post_limit | default: 15 -%}
     {%- for post in workPosts limit:post_limit -%}
     <article>
       <a href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}" class="{% if page.title == post.title %}current{% endif %}"><img src="/public/work/{{post.work.thumb}}" alt="{{ post.title | escape }}" loading="lazy" /></a>
